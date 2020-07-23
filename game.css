@@ -1,0 +1,57 @@
+  html, body {
+    height: 100%;
+    margin: 0;
+    background: #160a18;
+  }
+  body {
+    background-image: url("https://images.unsplash.com/photo-1484589065579-248aad0d8b13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3396&q=80");
+    background-size: 15%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+  }
+  canvas {
+    border: 15px groove #b9926c;
+    display: block;
+    background-color: #4e343e;
+  }
+
+  h1, h2{
+    display: block;
+    color: #ffd700;
+    text-shadow: 0px 0px 10px #f6862b;
+    background-color: #542727;
+  }
+
+  h1{
+    text-size: 3em;
+  }
+
+
+  #overlay{
+    border: 15px ridge #b9926c;
+    top: 10%;
+    position: absolute;
+    display: none;
+    width: 80%;
+    height: 80%;
+    background-color: #4e343ed1;
+    cursor: pointer:
+  }
+
+  #overText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: #ffd700;
+    transform: translate(-50%,-50%); /** Not sure what these two do...**/
+    -ms-transform: translate(-50%,-50%);
+    white-space: pre;
+    text-shadow: 0px 0px 10px #f6862b;
+    flex-flow: column;
+
+  }
