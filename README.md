@@ -1,7 +1,7 @@
 Gio - Snake - Game -- 
 The Snake no one Wants, but Everyone deserves
 =================
-
+### Live Link - https://gio-snake-game.glitch.me/
 
 In order to use the Snapchat login and bitmoji functionality on index.html, your Snap username will need to be added 
 to the project on SnapKit. 
